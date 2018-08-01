@@ -1,6 +1,6 @@
 // connect RFID vcc to 5V
-// connect RFID SIN to pin 6
-// connect RFID SOUT to pin 8
+// connect RFID SIN to pin 8
+// connect RFID SOUT to pin 9
 // connect RFID GND to GND
 
 
