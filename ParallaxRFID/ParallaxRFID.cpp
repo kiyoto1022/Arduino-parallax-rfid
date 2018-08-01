@@ -40,7 +40,6 @@ void ParallaxRFID::begin()
     _mySerial.begin(9600);
     pinMode(_rxPin, INPUT);
     pinMode(_txPin, OUTPUT);
-	Serial.print("begonnen");
 }
  
  
