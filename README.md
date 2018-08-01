@@ -20,7 +20,7 @@ Library Usage:
   * Download the source
   * Place the "ParallaxRFID" folder in your Arduino1.0+ "libraries" folder
   * Open example sketch: "file", "Examples", "ParallaxRFID", "ParralaxRFIDRead" (or "ParralaxRFIDWrite")
-  * Connect the RFID reader (default pins for RX/TX are 6, 8 (also connect Vcc and GND)
+  * Connect the RFID reader (default pins for RX/TX are 9, 8 (also connect Vcc and GND)
   * Compile & upload code
   * The reader should be printing status info on the serial monitor as described in the examples
   
