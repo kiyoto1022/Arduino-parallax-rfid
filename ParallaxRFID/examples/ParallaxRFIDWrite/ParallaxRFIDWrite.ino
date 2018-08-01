@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 #include <ParallaxRFID.h>
- ParallaxRFID RFIDclient(8,6);
+ ParallaxRFID RFIDclient(9,8);
 
 void setup()
 {
@@ -8,5 +8,5 @@ void setup()
 
 void loop()
 {
-  RFIDclient.writeRFID(4,25,25,25,25);
+  RFIDclient.writeRFID(4,1,1,1,1);
 }
