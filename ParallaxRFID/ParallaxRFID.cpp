@@ -74,26 +74,26 @@ void ParallaxRFID::suppressAll()
   if(_mySerial.available() > 0) {
     _val = _mySerial.read();
 	one=_val;
-	delay(250);
+	delay(10);
   }
  
 
   if(_mySerial.available() > 0) {
     _val = _mySerial.read();
    two=_val;
-	delay(250);
+	delay(10);
   }
 
   if(_mySerial.available() > 0) {
     _val = _mySerial.read();
 	three=_val;
-	delay(250);
+	delay(10);
   }
 
   if(_mySerial.available() > 0) {
     _val = _mySerial.read();
 	four=_val;
-	delay(250);
+	delay(10);
   }
   if(one==two&&two==three&&three==four)//all off the tags will have a code like 5,5,5,5 or 6,6,6,6 or ....
 	  //if tag read correct/ send the number of tag, else return false
