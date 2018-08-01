@@ -7,7 +7,7 @@
 #include <SoftwareSerial.h>
 #include <ParallaxRFID.h>
 
-ParallaxRFID RFIDclient(8,6);
+ParallaxRFID RFIDclient(9,8);
 int x;
 void setup()
 {
